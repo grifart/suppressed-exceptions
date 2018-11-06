@@ -1,5 +1,7 @@
 # Suppressed exceptions for PHP
 
+repositories: [Grifart GitLab](https://gitlab.grifart.cz/grifart/suppressed-exceptions), [GitHub](https://github.com/grifart/suppressed-exceptions)
+
 Suppressed exceptions are useful for aggregating more exceptions with unreliable resources.
 
 You want to communicate that process failed, with following list of sibling exceptions that led to this error.
