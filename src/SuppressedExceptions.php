@@ -11,9 +11,11 @@ trait SuppressedExceptions /* implements WithSuppressedExceptions */
 
 	private $suppressedExceptions = [];
 
-	public function addSuppressed(\Throwable $e): void
+	public function addSuppressed(\Throwable ...$exceptions): void
 	{
-		$this->suppressedExceptions[] = $e;
+		foreach($exceptions as $exception) {
+			$this->suppressedExceptions[] = $exception;
+		}
 	}
 
 	public function getSuppressed(): array

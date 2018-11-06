@@ -27,9 +27,9 @@ interface WithSuppressedExceptions
 	 * Note that programmer written code is also able to take advantage of calling this method in situations
 	 * where there are multiple sibling exceptions and only one can be propagated.
 	 *
-	 * @param \Throwable $e the exception to be added to the list of suppressed exceptions
+	 * @param \Throwable ...$exceptions the exception to be added to the list of suppressed exceptions
 	 */
-	public function addSuppressed(\Throwable $e): void;
+	public function addSuppressed(\Throwable ...$exceptions): void;
 
 	/**
 	 * Returns an array containing all of the exceptions that were suppressed.
