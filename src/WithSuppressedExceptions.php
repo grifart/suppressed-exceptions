@@ -36,7 +36,7 @@ interface WithSuppressedExceptions
 	 * If no exceptions were suppressed, an empty array is returned.
 	 * This method is thread-safe. Writes to the returned array do not affect future calls to this method.
 	 *
-     * @return \Throwable|array an array containing all of the exceptions that were suppressed to deliver this exception.
+     * @return \Throwable[]|array an array containing all of the exceptions that were suppressed to deliver this exception.
 	 */
 	public function getSuppressed(): array;
 
