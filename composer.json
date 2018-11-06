@@ -5,6 +5,16 @@
     "require": {
         "php": ">=7.1"
     },
+	"scripts": {
+        "verify": [
+            "@syntax-check",
+            "@phpstan",
+            "@tester"
+        ],
+        "syntax-check": "vendor/bin/parallel-lint src tests",
+        "phpstan": "vendor/bin/phpstan analyze --ansi --no-progress --no-interaction --level max src",
+        "tester": "vendor/bin/tester tests"
+	},
     "require-dev": {
         "nette/tester": "^2.1",
         "phpstan/phpstan": "^0.10.5",

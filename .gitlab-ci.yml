@@ -1,0 +1,19 @@
+image: grifart/php7.1-with-gulp-and-all-php-modules
+
+stages:
+- build
+- test
+
+build.composer:
+  stage: build
+  script:
+  - composer install
+  artifacts:
+    paths:
+    - vendor
+    expire_in: 10 days
+
+test.verify:
+  stage: test
+  script:
+  - composer run verify
