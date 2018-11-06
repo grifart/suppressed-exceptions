@@ -1,0 +1,26 @@
+{
+    "name": "grifart/suppressed-exceptions",
+    "description": "Adds support for suppressed exceptions as known in Java. https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html#suppressed-exceptions",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "nette/tester": "^2.1",
+        "phpstan/phpstan": "^0.10.5",
+        "jakub-onderka/php-parallel-lint": "^1.0",
+        "jakub-onderka/php-console-highlighter": "^0.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Kuchař",
+            "email": "honza.kuchar@grifart.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Grifart\\SuppressedExceptions\\": "src"
+        }
+    }
+}
