@@ -1,0 +1,12 @@
+language: php
+
+# keep up-to-date with composer.json supported platforms:
+php:
+  - '7.1'
+  - '7.2'
+  - '7.3'
+
+before_script:
+  - composer install
+script:
+  - composer run verify
