@@ -3,7 +3,7 @@
     "description": "Adds support for suppressed exceptions as known in Java. https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html#suppressed-exceptions",
     "type": "library",
     "require": {
-        "php": "~7.1.0 || ~7.2.0 || ~7.3.0"
+        "php": "~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0"
     },
 	"scripts": {
         "verify": [
