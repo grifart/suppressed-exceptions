@@ -1,0 +1,9 @@
+message
+Suppressed exceptions:
+- simple.phpt:21 - RuntimeException
+- simple.phpt:22 - This is message (LogicException)
+- simple.phpt:23 - Error
+- simple.phpt:24 - With previous (Exception)
+    previous: simple.phpt:18 - previous (Grifart\SuppressedExceptions\__tests\TestingSuppressedExceptionsException)
+    previous: simple.phpt:18 - Symfony\Component\Console\Exception\RuntimeException
+- simple.phpt:25 - Grifart\SuppressedExceptions\__tests\TestingSuppressedExceptionsException

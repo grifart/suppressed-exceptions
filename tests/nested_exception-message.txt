@@ -1,0 +1,12 @@
+message2
+Suppressed exceptions:
+- nested.phpt:18 - previous (Grifart\SuppressedExceptions\__tests\TestingSuppressedExceptionsException)
+    previous: nested.phpt:18 - Symfony\Component\Console\Exception\RuntimeException
+- nested.phpt:19 - message
+  Suppressed exceptions:
+  - nested.phpt:20 - message (Symfony\Component\Console\Exception\RuntimeException)
+      previous: nested.phpt:18 - previous (Grifart\SuppressedExceptions\__tests\TestingSuppressedExceptionsException)
+      previous: nested.phpt:18 - Symfony\Component\Console\Exception\RuntimeException
+   (Grifart\SuppressedExceptions\__tests\TestingSuppressedExceptionsException)
+    previous: nested.phpt:18 - previous (Grifart\SuppressedExceptions\__tests\TestingSuppressedExceptionsException)
+    previous: nested.phpt:18 - Symfony\Component\Console\Exception\RuntimeException
