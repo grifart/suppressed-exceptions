@@ -1,2 +1,5 @@
 /vendor/
 /.idea/
+tests/**/*.actual
+tests/**/*.expected
+composer.lock
