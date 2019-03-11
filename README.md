@@ -1,10 +1,12 @@
 # Suppressed exceptions for PHP
 
-repositories: [Grifart GitLab](https://gitlab.grifart.cz/grifart/suppressed-exceptions), [GitHub](https://github.com/grifart/suppressed-exceptions)
-
 Suppressed exceptions are useful for aggregating more exceptions from unreliable resources.
 
 Useful when you want to communicate that process failed, with a list of sibling exceptions that led to an error.
+
+repositories:  
+- [Grifart GitLab](https://gitlab.grifart.cz/grifart/suppressed-exceptions) [![pipeline status](https://gitlab.grifart.cz/grifart/suppressed-exceptions/badges/master/pipeline.svg)](https://gitlab.grifart.cz/grifart/suppressed-exceptions/commits/master)
+- [GitHub](https://github.com/grifart/suppressed-exceptions) (mirror) ![](https://travis-ci.org/grifart/suppressed-exceptions.svg?branch=master)
 
 ## Example usage
 
