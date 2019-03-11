@@ -12,12 +12,13 @@
             "@tester"
         ],
         "syntax-check": "vendor/bin/parallel-lint src tests",
-        "phpstan": "vendor/bin/phpstan analyze --ansi --no-progress --no-interaction --level max src",
+        "phpstan": "vendor/bin/phpstan analyze --ansi --no-progress --no-interaction --level max --configuration phpstan.neon --error-format compact -- src",
         "tester": "vendor/bin/tester tests"
 	},
     "require-dev": {
         "nette/tester": "^2.1",
-        "phpstan/phpstan": "^0.10.5",
+        "phpstan/phpstan": "^0.11",
+        "grifart/phpstan-oneline": "^0.2.1",
         "jakub-onderka/php-parallel-lint": "^1.0",
         "jakub-onderka/php-console-highlighter": "^0.4.0"
     },

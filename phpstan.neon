@@ -1,0 +1,2 @@
+includes:
+	- vendor/grifart/phpstan-oneline/config.neon
