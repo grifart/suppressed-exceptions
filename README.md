@@ -6,7 +6,7 @@ Useful when you want to communicate that process failed, with a list of sibling 
 
 repositories:  
 - [Grifart GitLab](https://gitlab.grifart.cz/grifart/suppressed-exceptions) [![pipeline status](https://gitlab.grifart.cz/grifart/suppressed-exceptions/badges/master/pipeline.svg)](https://gitlab.grifart.cz/grifart/suppressed-exceptions/commits/master)
-- [GitHub](https://github.com/grifart/suppressed-exceptions) (mirror) ![](https://travis-ci.org/grifart/suppressed-exceptions.svg?branch=master)
+- [GitHub](https://github.com/grifart/suppressed-exceptions) (mirror) [![Build Status](https://travis-ci.org/grifart/suppressed-exceptions.svg?branch=master)](https://travis-ci.org/grifart/suppressed-exceptions)
 
 ## Example usage
 
