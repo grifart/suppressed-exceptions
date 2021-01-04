@@ -13,7 +13,31 @@ build.composer:
     - vendor
     expire_in: 10 days
 
-test.verify:
+test.verify.php71:
+  stage: test
+  script:
+  - composer run verify
+
+test.verify.php72:
+  image: grifart/php7.2-with-gulp-and-all-php-modules
+  stage: test
+  script:
+  - composer run verify
+
+test.verify.php73:
+  image: grifart/php7.3-with-gulp-and-all-php-modules
+  stage: test
+  script:
+  - composer run verify
+
+test.verify.php74:
+  image: grifart/php7.4-with-gulp-and-all-php-modules
+  stage: test
+  script:
+  - composer run verify
+
+test.verify.php8:
+  image: grifart/php8.0-with-all-modules-and-various-tools
   stage: test
   script:
   - composer run verify
