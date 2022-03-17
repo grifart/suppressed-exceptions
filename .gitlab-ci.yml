@@ -41,3 +41,9 @@ test.verify.php8:
   stage: test
   script:
   - composer run verify
+
+test.verify.php81:
+  image: grifart/php8.1-with-all-modules-and-various-tools
+  stage: test
+  script:
+  - composer run verify
